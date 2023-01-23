@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:\Work\Internships\Revoh\PCB Jig - PCB Design\PCB Jig\GalaxEye\GalaxEye.sch</source>
+    <date>01/23/23 21:36:17</date>
+    <tool>Eeschema (5.1.10)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Internship Task</title>
+        <company>GalaxEye Space</company>
+        <rev>V1</rev>
+        <date>2023-01-22</date>
+        <source>GalaxEye.sch</source>
+        <comment number="1" value="Author: Tejeswar A Ramachandran"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="IC1">
+      <value>74HC595D,118</value>
+      <footprint>SamacSys_Parts:SOIC127P600X175-16N</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">74HC595D,118</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/74hc595d118/nexperia?region=europe</field>
+        <field name="Description">8-bit serial-in, serial or parallel-out shift register with output latches 3-state</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">74HC595D,118</field>
+        <field name="Mouser Part Number">771-74HC595D-T</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Nexperia/74HC595D118?qs=P62ublwmbi8l0ry%252BN2uyHg%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="74HC595D,118" description="8-bit serial-in, serial or parallel-out shift register with output latches 3-state"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63CD3D10</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63CDE5F4</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63CDEBAE</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63CDF42F</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63CDF73C</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63CDFA47</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63CE05DA</tstamp>
+    </comp>
+    <comp ref="IC2">
+      <value>74HC595D,118</value>
+      <footprint>SamacSys_Parts:SOIC127P600X175-16N</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">74HC595D,118</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/74hc595d118/nexperia?region=europe</field>
+        <field name="Description">8-bit serial-in, serial or parallel-out shift register with output latches 3-state</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">74HC595D,118</field>
+        <field name="Mouser Part Number">771-74HC595D-T</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Nexperia/74HC595D118?qs=P62ublwmbi8l0ry%252BN2uyHg%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="74HC595D,118" description="8-bit serial-in, serial or parallel-out shift register with output latches 3-state"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D037BB</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D037E3</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D037E9</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D037EF</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D037F5</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D037FB</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D0380D</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x06_Female</value>
+      <footprint>Connector_Molex:Molex_SL_171971-0006_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x06_Female" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D03818</tstamp>
+    </comp>
+    <comp ref="IC4">
+      <value>74HC595D,118</value>
+      <footprint>SamacSys_Parts:SOIC127P600X175-16N</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">74HC595D,118</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/74hc595d118/nexperia?region=europe</field>
+        <field name="Description">8-bit serial-in, serial or parallel-out shift register with output latches 3-state</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">74HC595D,118</field>
+        <field name="Mouser Part Number">771-74HC595D-T</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Nexperia/74HC595D118?qs=P62ublwmbi8l0ry%252BN2uyHg%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="74HC595D,118" description="8-bit serial-in, serial or parallel-out shift register with output latches 3-state"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D0A0C8</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D0A0F0</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D0A0F6</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D0A0FC</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D0A102</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D0A108</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D0A11A</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x06_Female</value>
+      <footprint>Connector_Molex:Molex_SL_171971-0006_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x06_Female" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D0A125</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x06_Female</value>
+      <footprint>Connector_Molex:Molex_SL_171971-0006_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x06_Female" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63CE47C0</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D9E854</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D9E846</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>BSS138</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
+      <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D9E83A</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D92337</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D92329</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>BSS138</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
+      <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D9231D</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D874BE</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D874B0</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>BSS138</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
+      <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D874A4</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D76389</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D5E3BD</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>BSS138</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
+      <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D1442F</tstamp>
+    </comp>
+    <comp ref="IC3">
+      <value>74HC595D,118</value>
+      <footprint>SamacSys_Parts:SOIC127P600X175-16N</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">74HC595D,118</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/74hc595d118/nexperia?region=europe</field>
+        <field name="Description">8-bit serial-in, serial or parallel-out shift register with output latches 3-state</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">74HC595D,118</field>
+        <field name="Mouser Part Number">771-74HC595D-T</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Nexperia/74HC595D118?qs=P62ublwmbi8l0ry%252BN2uyHg%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="74HC595D,118" description="8-bit serial-in, serial or parallel-out shift register with output latches 3-state"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63CFDE6D</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63CFDE95</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63CFDE9B</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63CFDEA1</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63CFDEA7</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63CFDEAD</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63CFDEBF</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x06_Female</value>
+      <footprint>Connector_Molex:Molex_SL_171971-0006_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x06_Female" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63CFDECA</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x02_Female</value>
+      <footprint>Connector_Molex:Molex_SL_171971-0002_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>640A2974</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x02_Female</value>
+      <footprint>Connector_Molex:Molex_SL_171971-0002_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>640840DB</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x06_Female</value>
+      <footprint>Connector_Molex:Molex_SL_171971-0006_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x06_Female" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63DAA94D</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Female">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x06_Female">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="74HC595D,118">
+      <description>8-bit serial-in, serial or parallel-out shift register with output latches 3-state</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">74HC595D,118</field>
+        <field name="Footprint">SOIC127P600X175-16N</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf</field>
+        <field name="Description">8-bit serial-in, serial or parallel-out shift register with output latches 3-state</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">74HC595D,118</field>
+        <field name="Mouser Part Number">771-74HC595D-T</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Nexperia/74HC595D118?qs=P62ublwmbi8l0ry%252BN2uyHg%3D%3D</field>
+        <field name="Arrow Part Number">74HC595D,118</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/74hc595d118/nexperia?region=europe</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Q1" type="passive"/>
+        <pin num="2" name="Q2" type="passive"/>
+        <pin num="3" name="Q3" type="passive"/>
+        <pin num="4" name="Q4" type="passive"/>
+        <pin num="5" name="Q5" type="passive"/>
+        <pin num="6" name="Q6" type="passive"/>
+        <pin num="7" name="Q7" type="passive"/>
+        <pin num="8" name="GND" type="passive"/>
+        <pin num="9" name="Q7S" type="passive"/>
+        <pin num="10" name="~MR" type="passive"/>
+        <pin num="11" name="SHCP" type="passive"/>
+        <pin num="12" name="STCP" type="passive"/>
+        <pin num="13" name="~OE" type="passive"/>
+        <pin num="14" name="DS" type="passive"/>
+        <pin num="15" name="Q0" type="passive"/>
+        <pin num="16" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BSS138">
+      <aliases>
+        <alias>2N7002</alias>
+        <alias>2N7002E</alias>
+        <alias>2N7002H</alias>
+        <alias>2N7002K</alias>
+        <alias>BS170F</alias>
+        <alias>BS870</alias>
+        <alias>BSN20</alias>
+        <alias>BSS123</alias>
+        <alias>BSS127S</alias>
+        <alias>DMG2302U</alias>
+        <alias>DMG3402L</alias>
+        <alias>DMG3404L</alias>
+        <alias>DMG3406L</alias>
+        <alias>DMG3414U</alias>
+        <alias>DMG3418L</alias>
+        <alias>DMN10H220L</alias>
+        <alias>DMN10H700S</alias>
+        <alias>DMN13H750S</alias>
+        <alias>DMN2041L</alias>
+        <alias>DMN2050L</alias>
+        <alias>DMN2056U</alias>
+        <alias>DMN2058U</alias>
+        <alias>DMN2075U</alias>
+        <alias>DMN2230U</alias>
+        <alias>DMN24H11DS</alias>
+        <alias>DMN24H3D5L</alias>
+        <alias>DMN3042L</alias>
+        <alias>DMN3051L</alias>
+        <alias>DMN30H4D0L</alias>
+        <alias>DMN3110S</alias>
+        <alias>DMN3150L</alias>
+        <alias>DMN3300U</alias>
+        <alias>DMN3404L</alias>
+        <alias>DMN6075S</alias>
+        <alias>DMN6140L</alias>
+        <alias>DMN67D7L</alias>
+        <alias>DMN67D8L</alias>
+        <alias>MMBF170</alias>
+        <alias>VN10LF</alias>
+        <alias>ZVN3306F</alias>
+        <alias>ZVN3310F</alias>
+        <alias>ZVN3320F</alias>
+        <alias>ZVN4106F</alias>
+        <alias>ZXM61N02F</alias>
+        <alias>ZXM61N03F</alias>
+        <alias>ZXMN10A07F</alias>
+        <alias>ZXMN2A01F</alias>
+        <alias>ZXMN2A14F</alias>
+        <alias>ZXMN2B01F</alias>
+        <alias>ZXMN2B14FH</alias>
+        <alias>ZXMN2F30FH</alias>
+        <alias>ZXMN2F34FH</alias>
+        <alias>ZXMN3A01F</alias>
+        <alias>ZXMN3A14F</alias>
+        <alias>ZXMN3B01F</alias>
+        <alias>ZXMN3B14F</alias>
+        <alias>ZXMN3F30FH</alias>
+        <alias>ZXMN6A07F</alias>
+        <alias>IRLML0030</alias>
+        <alias>IRLML2060</alias>
+        <alias>TSM2302CX</alias>
+        <alias>AO3400A</alias>
+      </aliases>
+      <description>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>D:\Software\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>D:\Software\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="SamacSys_Parts">
+      <uri>D:/Software/KiCad/LibraryLoader/SamacSys_Parts.lib</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>D:\Software\KiCad\share\kicad\library/Transistor_FET.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/LV">
+      <node ref="R21" pin="2"/>
+      <node ref="Q4" pin="1"/>
+      <node ref="J5" pin="2"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="Q3" pin="1"/>
+      <node ref="R22" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="2" name="/LV3">
+      <node ref="R21" pin="1"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="J5" pin="4"/>
+    </net>
+    <net code="3" name="Net-(IC3-Pad4)">
+      <node ref="IC3" pin="4"/>
+      <node ref="R29" pin="2"/>
+    </net>
+    <net code="4" name="Net-(IC3-Pad9)">
+      <node ref="IC3" pin="9"/>
+    </net>
+    <net code="5" name="Net-(IC3-Pad5)">
+      <node ref="IC3" pin="5"/>
+      <node ref="R30" pin="2"/>
+    </net>
+    <net code="6" name="/HV1">
+      <node ref="IC1" pin="14"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="7" name="/LV1">
+      <node ref="R1" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="J5" pin="6"/>
+    </net>
+    <net code="8" name="/HV4">
+      <node ref="Q4" pin="3"/>
+      <node ref="IC4" pin="14"/>
+      <node ref="R24" pin="1"/>
+    </net>
+    <net code="9" name="/HV">
+      <node ref="R19" pin="2"/>
+      <node ref="R20" pin="2"/>
+      <node ref="R24" pin="2"/>
+      <node ref="R23" pin="2"/>
+    </net>
+    <net code="10" name="/HV3">
+      <node ref="IC2" pin="14"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="R23" pin="1"/>
+    </net>
+    <net code="11" name="/LV2">
+      <node ref="J5" pin="5"/>
+      <node ref="R2" pin="1"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+    <net code="12" name="/HV2">
+      <node ref="IC3" pin="14"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="R20" pin="1"/>
+    </net>
+    <net code="13" name="+5V">
+      <node ref="IC3" pin="16"/>
+      <node ref="IC3" pin="10"/>
+      <node ref="IC1" pin="16"/>
+      <node ref="J8" pin="1"/>
+      <node ref="IC4" pin="16"/>
+      <node ref="IC1" pin="10"/>
+      <node ref="IC2" pin="16"/>
+      <node ref="IC2" pin="10"/>
+      <node ref="IC4" pin="10"/>
+    </net>
+    <net code="14" name="/LV4">
+      <node ref="Q4" pin="2"/>
+      <node ref="J5" pin="3"/>
+      <node ref="R22" pin="1"/>
+    </net>
+    <net code="15" name="GND">
+      <node ref="IC4" pin="13"/>
+      <node ref="IC2" pin="6"/>
+      <node ref="IC2" pin="7"/>
+      <node ref="IC2" pin="8"/>
+      <node ref="IC4" pin="6"/>
+      <node ref="IC4" pin="7"/>
+      <node ref="IC4" pin="8"/>
+      <node ref="IC1" pin="6"/>
+      <node ref="IC1" pin="7"/>
+      <node ref="IC1" pin="8"/>
+      <node ref="IC1" pin="13"/>
+      <node ref="IC3" pin="6"/>
+      <node ref="J5" pin="1"/>
+      <node ref="IC3" pin="8"/>
+      <node ref="J8" pin="2"/>
+      <node ref="IC3" pin="7"/>
+      <node ref="IC3" pin="13"/>
+      <node ref="IC2" pin="13"/>
+    </net>
+    <net code="16" name="Net-(IC4-Pad9)">
+      <node ref="IC4" pin="9"/>
+    </net>
+    <net code="17" name="Net-(IC2-Pad9)">
+      <node ref="IC2" pin="9"/>
+    </net>
+    <net code="18" name="Net-(IC1-Pad9)">
+      <node ref="IC1" pin="9"/>
+    </net>
+    <net code="19" name="/SH_CP">
+      <node ref="IC1" pin="11"/>
+      <node ref="J7" pin="2"/>
+      <node ref="IC4" pin="11"/>
+      <node ref="IC3" pin="11"/>
+      <node ref="IC2" pin="11"/>
+    </net>
+    <net code="20" name="/ST_CP">
+      <node ref="J7" pin="1"/>
+      <node ref="IC2" pin="12"/>
+      <node ref="IC3" pin="12"/>
+      <node ref="IC1" pin="12"/>
+      <node ref="IC4" pin="12"/>
+    </net>
+    <net code="21" name="Net-(J3-Pad5)">
+      <node ref="J3" pin="5"/>
+      <node ref="R29" pin="1"/>
+    </net>
+    <net code="22" name="Net-(IC3-Pad3)">
+      <node ref="R28" pin="2"/>
+      <node ref="IC3" pin="3"/>
+    </net>
+    <net code="23" name="Net-(J3-Pad4)">
+      <node ref="J3" pin="4"/>
+      <node ref="R28" pin="1"/>
+    </net>
+    <net code="24" name="Net-(IC3-Pad2)">
+      <node ref="R27" pin="2"/>
+      <node ref="IC3" pin="2"/>
+    </net>
+    <net code="25" name="Net-(J3-Pad3)">
+      <node ref="R27" pin="1"/>
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="26" name="Net-(IC3-Pad1)">
+      <node ref="IC3" pin="1"/>
+      <node ref="R26" pin="2"/>
+    </net>
+    <net code="27" name="Net-(J3-Pad2)">
+      <node ref="R26" pin="1"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="28" name="Net-(IC3-Pad15)">
+      <node ref="IC3" pin="15"/>
+      <node ref="R25" pin="2"/>
+    </net>
+    <net code="29" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1"/>
+      <node ref="R25" pin="1"/>
+    </net>
+    <net code="30" name="Net-(J3-Pad6)">
+      <node ref="R30" pin="1"/>
+      <node ref="J3" pin="6"/>
+    </net>
+    <net code="31" name="Net-(IC2-Pad2)">
+      <node ref="R13" pin="2"/>
+      <node ref="IC2" pin="2"/>
+    </net>
+    <net code="32" name="Net-(IC2-Pad1)">
+      <node ref="R12" pin="2"/>
+      <node ref="IC2" pin="1"/>
+    </net>
+    <net code="33" name="Net-(J2-Pad2)">
+      <node ref="R12" pin="1"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="34" name="Net-(IC2-Pad5)">
+      <node ref="IC2" pin="5"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="35" name="Net-(J2-Pad6)">
+      <node ref="R16" pin="1"/>
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="36" name="Net-(IC2-Pad4)">
+      <node ref="R15" pin="2"/>
+      <node ref="IC2" pin="4"/>
+    </net>
+    <net code="37" name="Net-(J2-Pad5)">
+      <node ref="R15" pin="1"/>
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="38" name="Net-(IC2-Pad3)">
+      <node ref="R14" pin="2"/>
+      <node ref="IC2" pin="3"/>
+    </net>
+    <net code="39" name="Net-(J2-Pad4)">
+      <node ref="J2" pin="4"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="40" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="41" name="Net-(IC2-Pad15)">
+      <node ref="R11" pin="2"/>
+      <node ref="IC2" pin="15"/>
+    </net>
+    <net code="42" name="Net-(IC1-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="IC1" pin="2"/>
+    </net>
+    <net code="43" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="44" name="Net-(J1-Pad6)">
+      <node ref="R8" pin="1"/>
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="45" name="Net-(IC1-Pad15)">
+      <node ref="R3" pin="2"/>
+      <node ref="IC1" pin="15"/>
+    </net>
+    <net code="46" name="Net-(IC1-Pad1)">
+      <node ref="R4" pin="2"/>
+      <node ref="IC1" pin="1"/>
+    </net>
+    <net code="47" name="Net-(J1-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="48" name="Net-(IC1-Pad5)">
+      <node ref="IC1" pin="5"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="49" name="Net-(IC1-Pad4)">
+      <node ref="IC1" pin="4"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="50" name="Net-(IC1-Pad3)">
+      <node ref="IC1" pin="3"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="51" name="Net-(J4-Pad1)">
+      <node ref="J4" pin="1"/>
+      <node ref="R33" pin="1"/>
+    </net>
+    <net code="52" name="Net-(J4-Pad6)">
+      <node ref="R38" pin="1"/>
+      <node ref="J4" pin="6"/>
+    </net>
+    <net code="53" name="Net-(J4-Pad5)">
+      <node ref="R37" pin="1"/>
+      <node ref="J4" pin="5"/>
+    </net>
+    <net code="54" name="Net-(J4-Pad4)">
+      <node ref="R36" pin="1"/>
+      <node ref="J4" pin="4"/>
+    </net>
+    <net code="55" name="Net-(J4-Pad3)">
+      <node ref="J4" pin="3"/>
+      <node ref="R35" pin="1"/>
+    </net>
+    <net code="56" name="Net-(J4-Pad2)">
+      <node ref="R34" pin="1"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="57" name="Net-(IC4-Pad15)">
+      <node ref="IC4" pin="15"/>
+      <node ref="R33" pin="2"/>
+    </net>
+    <net code="58" name="Net-(IC4-Pad2)">
+      <node ref="R35" pin="2"/>
+      <node ref="IC4" pin="2"/>
+    </net>
+    <net code="59" name="Net-(IC4-Pad1)">
+      <node ref="R34" pin="2"/>
+      <node ref="IC4" pin="1"/>
+    </net>
+    <net code="60" name="Net-(J1-Pad5)">
+      <node ref="R7" pin="1"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="61" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="62" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="63" name="Net-(IC4-Pad5)">
+      <node ref="R38" pin="2"/>
+      <node ref="IC4" pin="5"/>
+    </net>
+    <net code="64" name="Net-(IC4-Pad4)">
+      <node ref="R37" pin="2"/>
+      <node ref="IC4" pin="4"/>
+    </net>
+    <net code="65" name="Net-(IC4-Pad3)">
+      <node ref="R36" pin="2"/>
+      <node ref="IC4" pin="3"/>
+    </net>
+    <net code="66" name="Net-(J2-Pad1)">
+      <node ref="R11" pin="1"/>
+      <node ref="J2" pin="1"/>
+    </net>
+  </nets>
+</export>
