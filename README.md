@@ -6,8 +6,8 @@ GALAXEYE SPACE
 INTERNSHIP TASK
 
 Problem Statement:
-•	You need to be able to convert inputs from up to 4 different digital I/O pins and get an output of 24 GPIO pins with a different logic level.
-•	You need to design a neatly labeled schematic of this design and also generate a BOM with links to in-stock parts
+1. You need to be able to convert inputs from up to 4 different digital I/O pins and get an output of 24 GPIO pins with a different logic level.
+2. You need to design a neatly labeled schematic of this design and also generate a BOM with links to in-stock parts
 
 Solution:
 The Microcontroller will send out values at 3.3V level, from 4 different digital I/O pins. The output from these pins are passed through a level shifter to convert them to a different logic level. Once the logic level has been changed, the 4 output values are passed through 4 8 bit SIPO shift registers to obtain a total of 32 bits as output. Finally, 2 bits from each SIPO shift register were grounded to shorten the output to just 24 bits.
